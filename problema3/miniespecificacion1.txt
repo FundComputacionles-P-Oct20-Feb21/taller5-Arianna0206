@@ -1,0 +1,43 @@
+1.Inicio
+
+2. número_de_días, i[0,n]
+3. precio_diario_de_habitación, d[0,n]
+4. total, d[0,n]
+5. descuento, d[0,n]
+6. porcentaje1, d[0,n]
+7. porcentaje2, d[0,n]
+8. porcentaje3, d[0,n]
+ 
+9. porcentaje1 <-- 10
+10. porcentaje2 <-- 15
+11. porcentaje3 <-- 20
+
+12. Escribir "Ingrese el número de días"
+13. Lea número_de_días 
+14. Escribir "Ingrese precio diario de habitación"
+15. Lea precio-diario_de_habitación
+
+16. total = número_de_días * precio_diario_de_habitación
+
+17. Si día > 5 entonces
+     // vt  -----  100%
+     // x  ----   10%
+18. descuento <-- (porcentaje1 * total)/100
+19. total <-- total - descuento
+
+20. Si día > 10 entonces 
+     // vt ---- 100%
+     // x ----  15%
+21. descuento <-- (porcentaje2 * total)/100
+22. total <-- total - descuento 
+
+23. Si día > 15 entonces 
+    // vt  ---- 100%
+    // x  ---- 20%
+24. descuento <-- (porcentaje3 * total)/100
+25. subtotal <-- total
+26. total <-- subtotal - descuento 
+27. Fin si
+
+28. Escribir "El total a pagar es:" + total 
+29. Fin

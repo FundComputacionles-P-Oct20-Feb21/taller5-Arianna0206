@@ -1,0 +1,28 @@
+1.Inicio
+
+2.cantidad, d[0,n]
+3.precio_unitario, d[0,n]
+4.costo_del_artículo, d[0,n]
+5.unidades, d[0,n]
+6.descuento, d[0,n]
+7.porcentaje, d[0,n]
+
+8. porcentaje <-- 15
+
+9. Escribir "Ingrese la cantidad que se requiere"
+10. Lea cantidad
+11. Escribir "Ingrese el precio unitario"
+12. Lea precio_unitario
+ 
+14. costo_de_artículo = cantidad + precio_de_articulo
+
+15. Si unidades > 50 entonces 
+  // vt ---- 100%
+  // x ---- 15%
+16. descuento <-- (porcentaje * costo_del_artículo)/100
+17. costo_del_artículo <-- costo_del_artículo - descuento 
+18. Fin si
+
+19. Escribir "El costo del artículo es:" + costo_del_artículo
+
+  

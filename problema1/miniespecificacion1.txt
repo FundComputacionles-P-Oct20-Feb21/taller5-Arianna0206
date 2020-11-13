@@ -1,0 +1,29 @@
+1.Inicio
+
+2.costo_por_kilovatio/hora, d[0,n]
+3.número_de_kilovatios_consumidos_en_el_mes, d[0,n]
+4.valor_de_planilla, d[0,n]
+5.edad, i[0,n]
+6.descuento, d[0,n]
+7.porcentaje, d[0,n]
+
+8. porcentaje <-- 10
+
+9. Escribir "Ingrese el costo por kilovatio/hora"
+10. Lea costo por kilovatio/hora
+11. Escribir "Ingrese número de kilovatios consumidos en el mes"
+12. Lea número de kilovatios consumidos en el mes
+13. Escribir "Ingrese edad de la persona"
+14. Lea edad
+
+15. valor_de_planilla = costo_por_kilovatio/hora * número_de_kilovatios_consumidos_en_el_mes
+
+16. Si edad > 65 entonces
+     // vt ----  100%
+    //  x ----   10%
+17. descuento <-- (porcentaje * valor_de_planilla)/100
+18. valor_de_planilla <-- valor_de_planilla - descuento 
+19. Fin si
+
+20. Escribir "El valor de planilla es:" + valor_de_planilla
+21. Fin  
